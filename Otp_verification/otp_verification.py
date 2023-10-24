@@ -4,8 +4,8 @@ import tkinter as tk
 from tkinter import messagebox
 
 def send_otp(receiver_email):
-    sender_email = "a-5059@kmclu.ac.in"
-    sender_password = "rcfoukwnkqgrmtpy"
+    sender_email = "test@gmail.com"
+    sender_password = "ajkfjsjadjdlk"
 
     subject = "OTP Verification"
     otp = str(random.randint(100000, 999999))
